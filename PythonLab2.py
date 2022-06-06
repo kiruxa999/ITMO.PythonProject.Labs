@@ -4,7 +4,7 @@ string2 = " This is another string."
 string3 = string1 + string2
 print(string3.upper())
 
-##Извлечение символов и подстрок
+##Извлечеение символов и подстрок
 d = "qwerty"
 ch = d[2] # извлекается символ ‘e’
 chm = d[1:3], d[1:], d[:3], d[:], d[1:5:2]
