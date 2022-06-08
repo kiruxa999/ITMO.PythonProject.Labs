@@ -36,7 +36,6 @@ elif t1 < t2:
 else:
      print('Ничья')
 
-
 #if n1 > n2:
   #  print('Выиграл', igrok1)
 #elif n1 < n2:
