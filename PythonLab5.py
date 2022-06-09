@@ -13,7 +13,7 @@ def thrGame(user, n):
     print('Выпало: ', n)
     return n
 
-#Выводим результат
+#Выводим результатт
 def resultGame(res1,res2,smbd1, smbd2):
     if res1 > res2:
         print('Выиграл', smbd1)
