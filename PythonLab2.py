@@ -65,7 +65,7 @@ print(seq)
 listseq = list(seq)
 print(type(listseq))
 
-#Словари
+#Словарии
 D = {'food': 'Apple', 'quantity': 4, 'color': 'Red'}
 D['food']
 D['quantity'] += 10
