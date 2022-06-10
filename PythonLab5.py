@@ -2,11 +2,11 @@ from random import randint
 import time
 
 #Ввод имен играющих
-def enterName():
+def enter_name():
     return input()
 
 #Бросаем кубик
-def thrGame(user, n):
+def thr_game(user, n):
     print('Кубик бросает', user)
     time.sleep(1)
     n = randint(1, 6)
@@ -14,7 +14,7 @@ def thrGame(user, n):
     return n
 
 #Выводим результатт
-def resultGame(res1,res2,smbd1, smbd2):
+def result_game(res1,res2,smbd1, smbd2):
     if res1 > res2:
         print('Выиграл', smbd1)
     elif res1 < res2:
@@ -22,10 +22,10 @@ def resultGame(res1,res2,smbd1, smbd2):
     else:
         print('Ничья')
 
-igrok1 = enterName()
-igrok2 = enterName()
+igrok1 = enter_name()
+igrok2 = enter_name()
 score1 = 0
 score2 = 0
-resultGame(thrGame(igrok1, score1), thrGame(igrok2, score2), igrok1, igrok2)
+result_game(thr_game(igrok1, score1), thr_game(igrok2, score2), igrok1, igrok2)
 
 
