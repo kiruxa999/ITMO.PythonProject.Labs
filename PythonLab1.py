@@ -13,3 +13,4 @@ plt.legend(['sigma = 0.5, mu = 1.0',
             'sigma = 1.5, mu = 0.0'], loc='upper left')
 fig.savefig('gauss.png')
 plt.show()
+
